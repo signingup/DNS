@@ -9,7 +9,7 @@ WORKDIR /mosdns
 RUN git clone https://github.com/pmkol/mosdns.git .
 
 WORKDIR /adguardhome
-RUN git clone https://github.com/AdguardTeam/AdGuardHome.git . && git checkout v0.107.61
+RUN git clone https://github.com/AdguardTeam/AdGuardHome.git . && git checkout v0.107.62
 
 #build mosdns
 WORKDIR /mosdns
